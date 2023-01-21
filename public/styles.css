@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@300&display=swap');
+#header, #footer {
+    background-color: black;
+    color: white;
+    font: 300 1em "Open Sans",sans-serif;
+}
+.header-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 40px;
+} 
+#img-logo {
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+}
+#main-navigation ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color: purple;
+}
+li a, h2 a {
+    color: white;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+}
+body {
+    background-color: white;
+    margin: 0;
+}
+#main {
+    height: 530px;
+}
+#main img {
+    padding: 50px;
+    width: 290px;
+    height: 290px;
+}
+#main-content-images {
+    display: flex;
+    flex-flow: row wrap;
+}
+#main-content-image-description {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font: 1em "Open Sans",sans-serif;
+}
+#main-content-image-description a {
+    color:black;
+}
+#main-content-image-description a:hover {
+    background-color: purple;
+    color: white;
+}
+#footer {
+    text-align: center;
+}

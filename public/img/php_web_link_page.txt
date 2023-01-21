@@ -1,0 +1,6 @@
+http://madiha.rf.gd/codemadiha.ca/variables.php
+http://madiha.rf.gd/codemadiha.ca/phpoutput.php
+
+if there is any index.php page then it run that file always
+
+https://github.com/codeadamca/php-variables/blob/main/variables.php

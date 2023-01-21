@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        title #{title} | Test website
+        link(rel="stylesheet", type="text/css", href="/styles.css")
+    body
+        header#header
+            .header-content
+                .header-content-left
+                    h2#site-name
+                        a(href="/") Allin1
+                .header-content-right 
+                    h3#signin Sign in 
+                        img#img-logo(src="/img/cart_logo.jpg")
+            nav#main-navigation 
+                ul 
+                    each lk in menu 
+                        li 
+                            a(href=lk.path) #{lk.name}
+        main#main
+            block main-content 
+        footer#footer 
+            p &copy; Copyright Madiha Umair, 2023.
